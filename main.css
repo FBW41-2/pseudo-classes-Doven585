@@ -20,9 +20,29 @@ button {
 
 
 /* Task 1 */
+a {
+  color: brown;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:visited {
+  color: blue;
+}
+a:active {
+  color: brown;
+}
 
 /* Task 2 */
+button:hover {
+  background-color: chartreuse;
+  color: white;
+}
 
 /* Task 3 */
-
+p:first-letter {
+  color: brown;
+}
 /* Task 4 */
+h2 + p::first-line {
+  color: blueviolet;
+}
